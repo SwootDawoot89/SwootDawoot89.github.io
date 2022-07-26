@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+main {
+    font-family: 'Black Ops One', cursive;
+    display :grid;
+    max-width: 15em; ;
+    margin: auto;
+    font-size: 30pt;
+}
+#output { 
+    grid-column: 2;
+    grid-row: 1 /3;
+}
+#input{ 
+    grid-column: 1;
+    grid-row: 1;
+}
+#button{
+    grid-column: 1 ;
+    grid-row: 2;
+}
